@@ -1,7 +1,7 @@
 import serial
 import numpy as np
 
-PORT = "COM6"
+PORT = "COM3"
 
 
 def synchronise_UART(serial_port):
@@ -81,8 +81,8 @@ def evaluate_model_on_STM32(iterations, serial_port):
 
 
 if __name__ == '__main__':
-    X_test = np.load("./CNN_C2_16_10/MNIST_xtest_NN_C2_16_10.npy")
-    Y_test = np.load("./CNN_C2_16_10/MNIST_ytest_NN_C2_16_10.npy")
+    X_test = np.load("./Projet_IA_Embarque/x_test.npy")
+    Y_test = np.load("./Projet_IA_Embarque/y_test.npy")
 
     with serial.Serial(PORT, 115200, timeout=1) as ser:
         print("Synchronising...")
