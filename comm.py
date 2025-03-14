@@ -74,6 +74,10 @@ def evaluate_model_on_STM32(iterations, serial_port):
         print(f"----- Iteration {i+1} -----")
         send_inputs_to_STM32(X_test[i], serial_port)
         output = read_output_from_STM32(serial_port)
+
+        print(np.argmax(output))
+        print(np.argmax(Y_test[i]))
+        
         if (np.argmax(output) == np.argmax(Y_test[i])):
             accuracy += 1 / iterations
         print(f"   Expected output: {Y_test[i]}")
