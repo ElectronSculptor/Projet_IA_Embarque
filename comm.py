@@ -2,7 +2,7 @@ import serial
 import numpy as np
 from time import sleep
 
-PORT = "COM13"
+PORT = "COM3"
 
 
 def synchronise_UART(serial_port):
