@@ -57,7 +57,7 @@
         }
     },
     "activations_alignment": 4,
-    "arguments": "generate --target stm32l4 --name predictive_maintenance -m C:/Users/chass/Documents/ISMIN-2A/IA&Manufacturing/IA_embarquee/Projet_IA_Embarque/modele_prediction_panne.h5 --compression none --verbosity 1 --workspace C:/Users/chass/AppData/Local/Temp/mxAI_workspace203135280290017310479141222734028 --output C:/Users/chass/.stm32cubemx/predictive_maintenance_output",
+    "arguments": "analyze --target stm32l4 --name predictive_maintenance -m C:/Users/chass/Documents/ISMIN-2A/IA&Manufacturing/IA_embarquee/Projet_IA_Embarque/modele_prediction_panne.h5 --compression none --verbosity 1 --workspace C:/Users/chass/AppData/Local/Temp/mxAI_workspace855344130559915754572515286653292 --output C:/Users/chass/.stm32cubemx/predictive_maintenance_output",
     "c_activations_count": 1,
     "c_arrays": [
         {
@@ -751,7 +751,7 @@
         ]
     },
     "data_alignment": 4,
-    "date_time": "2025-03-19T09:49:17+0100",
+    "date_time": "2025-03-20T11:21:20+0100",
     "inputs": [
         "input_0_output"
     ],

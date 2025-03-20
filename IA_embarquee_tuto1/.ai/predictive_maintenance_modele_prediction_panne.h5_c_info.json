@@ -470,44 +470,44 @@
   ],
   "environment": {
     "generated_model": {
-      "generated_time": "2025-03-19T09:49:17+0100",
+      "generated_time": "2025-03-20T11:21:20+0100",
       "model_files": [
         {
           "name": "predictive_maintenance_data_params.h",
-          "signature": "0x65651a4b0f36207d08e06d4a57f11546"
+          "signature": "0xe21207b29d042c36fb94edbca128d044"
         },
         {
           "name": "predictive_maintenance_data_params.c",
-          "signature": "0x9a8fb678ea09a5a830c7c21e3e2b0be7"
+          "signature": "0x125481eeedce956533a263035904cb72"
         },
         {
           "name": "predictive_maintenance_data.h",
-          "signature": "0xc04b4e67a7a2b9eac1109f0896c4711e"
+          "signature": "0xb89ef63d5e7a5baa38be4cf7a651def3"
         },
         {
           "name": "predictive_maintenance_data.c",
-          "signature": "0xc18a0ef3e16db401e17d4475093a2f9a"
+          "signature": "0xf0219c4e5d38330532ab556d7b272e31"
         },
         {
           "name": "predictive_maintenance_config.h",
-          "signature": "0xe78521ffb8fad2e8b58cad6f79f56d82"
+          "signature": "0x31221e710c74eebb1ce37923c8b21e5c"
         },
         {
           "name": "predictive_maintenance.h",
-          "signature": "0x4402a87cfe4ee4c43f2c65943353eba9"
+          "signature": "0x330d569b2af1b0ba40052ef142502b67"
         },
         {
           "name": "predictive_maintenance.c",
-          "signature": "0x8fec3a0ee06f11fd286f6bc27b0d2763"
+          "signature": "0xaeadc5137a3a7e250a95df03b69897e9"
         }
       ],
       "name": "predictive_maintenance"
     },
-    "network_signature": "0x2a63d0601f372bcb",
+    "network_signature": "0x4d6bb98cd05bfc9c",
     "test_name": "",
     "tools": [
       {
-        "arguments": "generate --target stm32l4 --name predictive_maintenance -m C:/Users/chass/Documents/ISMIN-2A/IA&Manufacturing/IA_embarquee/Projet_IA_Embarque/modele_prediction_panne.h5 --compression none --verbosity 1 --workspace C:/Users/chass/AppData/Local/Temp/mxAI_workspace203135280290017310479141222734028 --output C:/Users/chass/.stm32cubemx/predictive_maintenance_output",
+        "arguments": "analyze --target stm32l4 --name predictive_maintenance -m C:/Users/chass/Documents/ISMIN-2A/IA&Manufacturing/IA_embarquee/Projet_IA_Embarque/modele_prediction_panne.h5 --compression none --verbosity 1 --workspace C:/Users/chass/AppData/Local/Temp/mxAI_workspace855344130559915754572515286653292 --output C:/Users/chass/.stm32cubemx/predictive_maintenance_output",
         "environment": [
           "STATS_TYPE=X-CUBE-AI"
         ],
