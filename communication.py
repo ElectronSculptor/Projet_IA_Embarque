@@ -2,7 +2,7 @@ import serial
 import numpy as np
 from time import sleep
 
-PORT = "COM13"
+PORT = "COM5"
 
 
 def synchronise_UART(serial_port):
@@ -53,7 +53,7 @@ def read_output_from_STM32(serial_port):
     A list of float values obtained by dividing each byte by 255.
     """
     output = serial_port.read(10)
-    print("Raw output: ", output)
+    # print("Raw output: ", output)
 
     float_values = [int(out)/255 for out in output]
     return float_values
@@ -76,8 +76,8 @@ def evaluate_model_on_STM32(iterations, serial_port):
         send_inputs_to_STM32(X_test[i], serial_port)
         output = read_output_from_STM32(serial_port)
 
-        print(np.argmax(output))
-        print(np.argmax(Y_test[i]))
+        # print(np.argmax(output))
+        # print(np.argmax(Y_test[i]))
         
         if (np.argmax(output) == np.argmax(Y_test[i])):
             accuracy += 1 / iterations
