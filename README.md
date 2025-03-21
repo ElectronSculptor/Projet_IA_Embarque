@@ -83,7 +83,18 @@ Taille du modèle déployé:
 |RT total|10,712|46.0%|2,484|86.6%| 
 |TOTAL|23,280||2,868 
 
+L'option de compression n'a pas été choisie lors du déploiement du réseau sur la cible.
+
 ## Performances après déploiement
 
 L'inférence se base sur le calcul à virgule flottante. Ces calculs ne sont pas effectués avec la même précision sur un ordinateur que sur une cible embarquée. C'est pour cela qu'un test de performances post-déploiement est nécéssaire pour s'assurer de l'efficacité du modèle. Grâce au programme python de communication il est possible de tester le modèle sur cible.
 
+L'exécution du test sur la cible embarquée donne un résultat avec une accuracy de **89%**.
+
+![alt text](accuracy_on_target.png)
+
+
+
+## Conclusion
+
+On constate un léger écart de précision de prédiction entre l'inférence sur ordinateur et l'inférence sur cible embarquée. Malgré cet écart, l'inférence sur cible conserve une précision acceptable pour notre application dans un domaine industriel. On rapelle que les erreurs sont regroupées dans les cas de prédiction de fausses pannes.
