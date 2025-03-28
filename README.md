@@ -1,7 +1,7 @@
 # Projet_IA_Embarque
 
 <p align=center>
-<img src="stm32l4r9ia.jpg"><br>
+<img src="Images/stm32l4r9ia.jpg"><br>
 <b>STM32L4R9I-DISCO-Kit</b>
 <p>
 
@@ -93,7 +93,7 @@ Pour l'entrainement, on utilise la fonction *categorical_crossentropy*, classiqu
 La matrice de confusion suivante montre les résultats données par ce modèle sur la base de données augmentée:
 
 <p align=center>
-<image src="confusion_matrix_AI4I2020_model.png"> <br>
+<image src="Images/confusion_matrix_AI4I2020_model.png"> <br>
 <b>Accuracy: 98%</b>
 </p>
 
@@ -120,7 +120,7 @@ L'inférence se base sur le calcul à virgule flottante. Ces calculs ne sont pas
 L'exécution du test sur la cible embarquée donne un résultat avec une accuracy de **89%**.
 
 <p align=center>
-<image src="accuracy_on_target.png"> <br>
+<image src="Images/accuracy_on_target.png"> <br>
 <b>Accuracy: 89%</b>
 </p>
 
